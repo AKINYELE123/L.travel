@@ -190,7 +190,7 @@ h1, h2, h3, h4, h5, h6{
 #showcase {
     height: 100vh;
     width: 100%;
-    background-image: url(image22.jpg);
+    background-image: url(image28.jpeg);
     background-position: center;
     background-size: cover;
     box-sizing: border-box;
@@ -206,15 +206,15 @@ h1, h2, h3, h4, h5, h6{
     text-align: center;
     justify-self: center;
     color: #fff;
-    padding-top: 400px;
+    padding-top: 500px;
 }
 
 p{
-    font-size: 15px;
+    font-size: 20spx;
     font-weight: 500;
     line-height: 20px;
     letter-spacing: 0.1em;
-    margin-top: 40px;
+    margin-top: 90px;
 }
 .text{
     font-size: 70px;
@@ -258,6 +258,13 @@ p{
     animation: slider 10s linear infinite;
 }
 
+@keyframes slider{
+    0% {bottom: 0%;}
+    33% {bottom: 100%;}
+    66% {bottom: 200%;}
+    100% {bottom: 0%;}
+}
+
 @keyframes slider {
     0%{
         margin-top: -320px;
@@ -280,7 +287,7 @@ p{
     100%{
         margin-top: 160;
     }
-}
+}*/
 
 
 /* Home Articles*/
@@ -360,3 +367,4 @@ p{
     border-radius: 3px;
     padding: 10px 20px;
 }
+
